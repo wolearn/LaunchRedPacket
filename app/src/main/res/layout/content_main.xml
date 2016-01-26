@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="sample.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <com.empty.launchredpacket.LaunchRedPacketLayout
+        android:id="@+id/launchRedPacket"
+        android:layout_width="match_parent"
+        android:background="#faecec"
+        android:layout_height="400dp"
+        />
+
+    <!--<com.empty.launchredpacket.PrizePanel-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="100dp" />-->
+
+    <Button
+        android:id="@+id/launchBtn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="@color/colorPrimary"
+        android:text="发射"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/reStart"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="@color/colorPrimary"
+        android:text="重新开始"
+        android:textColor="@android:color/white" />
+</LinearLayout>
