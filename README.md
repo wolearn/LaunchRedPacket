@@ -3,8 +3,9 @@
 [地址](http://blog.csdn.net/xuan_xiaofeng/article/details/50586848)
 
 ###
-#包结构(app module下)  
-* core(存放全局缓存，全局http，全局mvp基类)  
+#包结构(app module下)
+```
+-core(存放全局缓存，全局http，全局mvp基类)  
           cache(全局缓存)
   ** http (全局http)
   -mvp  (mvp相关基类)
@@ -28,4 +29,5 @@
   -service(复杂业务可以加一层service，抽出presenter中的复杂逻辑)
   -mvp(存放mvp相关的类，如wallletActivity, wallletContract, wallletPresenter...)
 ...(其他业务模块的包划分类似)
-***
+```
+###
