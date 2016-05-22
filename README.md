@@ -2,10 +2,10 @@
 一个会发红包的android控件
 [地址](http://blog.csdn.net/xuan_xiaofeng/article/details/50586848)
 
-***
+###
 #包结构(app module下)  
 * core(存放全局缓存，全局http，全局mvp基类)  
-* cache(全局缓存)
+          cache(全局缓存)
   ** http (全局http)
   -mvp  (mvp相关基类)
   -application
