@@ -6,8 +6,8 @@
 #包结构(app module下)
 ```
 -core(存放全局缓存，全局http，全局mvp基类)  
-          cache(全局缓存)
-  ** http (全局http)
+  -cache(全局缓存)
+  -http (全局http)
   -mvp  (mvp相关基类)
   -application
 -login(业务模块-登录，其他业务模块类似划分)
@@ -30,4 +30,4 @@
   -mvp(存放mvp相关的类，如wallletActivity, wallletContract, wallletPresenter...)
 ...(其他业务模块的包划分类似)
 ```
-###
+***
